@@ -29,31 +29,31 @@ import { Link } from "react-router-dom";
   };
   return (
   <div className='bg-dark' style={{borderBottom:'20px solid black',color:'white'}} >
-    <div  style={{paddingTop:'120px', paddingBottom:'50px'}} >
-      <div id="heading" style={{paddingTop:'250px',paddingBottom:'550px', borderBottom:'20px solid black'}}>
+    <div  style={{paddingTop:'100px', paddingBottom:'50px'}} >
+      <div id="heading" style={{ borderBottom:'20px solid black'}}>
       <div style={{textAlign:'center', color:'black'}}>
-        <h1 id='mainheading' style={{fontSize:'64px'}}>Travel with RUMI@TRAVELS</h1>
-        <h4 className='container my-5'><b><i>Choose a trusted partner in travel for all your journey needs. Our experienced and caring staff will help you plan your dream vacation, providing high quality service for domestic and international destinations. We provide special offers and packages to accommodate any budget and timeframe. Let our experts make sure that every moment of your trip is memorable!</i></b></h4>
+        <h1 id='mainheading'>Travel with RUMI@TRAVELS</h1>
+        <h4 className='container my-5' id='subheading'><b><i>Choose a trusted partner in travel for all your journey needs. Our experienced and caring staff will help you plan your dream vacation, providing high quality service for domestic and international destinations. We provide special offers and packages to accommodate any budget and timeframe. Let our experts make sure that every moment of your trip is memorable!</i></b></h4>
         </div>
-        <div className='text-center' style={{paddingTop:'50px'}} >
-    <Link to="/about" className='mx-3' ><button id='bbd' type="button" className="btn btn-primary btn-lg">LEARN MORE</button></Link>
+        <div className='text-center' style={{paddingTop:'30px'}} >
+    <Link to="/about" className='mx-3' ><button id='bbd' type="button" className="btn btn-primary">LEARN MORE</button></Link>
     
-    <Link to="/contact" className='mx-3' ><button id='bbc' type="button" className="btn btn-info btn-lg">BOOK NOW</button></Link>
+    <Link to="/contact" className='mx-3' ><button id='bbc' type="button" className="btn btn-info">BOOK NOW</button></Link>
     </div>
     </div>
     <div style={{ borderBottom:'20px solid black', paddingBottom:'50px'}}  >
    <div className="container" style={{paddingTop:'50px'}} >
     <h4 className='my-3'>Explore Hidden Wonders in Exotic Destinations</h4>
-    <h2 style={{fontFamily:'Merienda', color:'#FFFE54', fontSize:'38px'}} className='my-4'>Find Your Dream Vacation</h2>
+    <h2 id='dvac' className='my-4'>Find Your Dream Vacation</h2>
     <h6>Welcome to RUMI@TRAVELS Agency! We understand that everyone wants something different out of a vacation, and at RUMI@TRAVELS we are here to help you find exactly what you're looking for. From experiencing the hustle and bustle of bustling big cities, or taking it slow on an exotic beach getaway - with our experienced team you can be sure your dream trip will come true. So let us make your travel dreams a reality today!
 </h6>
 </div></div>
-   <div className="container" style={{textAlign:'center', paddingTop:'50px', paddingBottom:'100px'}}>
-    <h2 style={{fontFamily:'Brush Script MT', fontSize:'48px'}} className='text-info my-3'>Our Services</h2>
+   <div className="container" style={{textAlign:'center', paddingTop:'50px', paddingBottom:'70px'}}>
+    <h2 id='os' className='text-info my-3'>Our Services</h2>
     <h6 className='my-4'>All our services are available for you!</h6>
     <div className="row">
       <div className="col-md-3">
-    <div style={{borderColor:'#212529'}} className="card">
+    <div style={{borderColor:'#212529', marginBottom:'10px'}} className="card">
   <img src="https://img2.hocoos.com/cache/u/137967/114426/w-362/h-224/x--2/y-2/ww-410/wh-255/u/137967/114426/murree%20img.png" className="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">Tour Package Planning</h5>
@@ -66,7 +66,7 @@ import { Link } from "react-router-dom";
    </div>
   </div>
       <div className="col-md-3">
-    <div style={{borderColor:'#212529'}} className="card" >
+    <div style={{borderColor:'#212529', marginBottom:'10px'}} className="card" >
   <img src="https://img2.hocoos.com/cache/u/137967/114426/w-800/h-497/x-0/y-23/ww-410/wh-255/u/137967/114426/burjalswathotel-1556544463.webp" className="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">Hotel Reservation</h5>
@@ -79,7 +79,7 @@ import { Link } from "react-router-dom";
    </div>
   </div>
       <div className="col-md-3">
-    <div style={{borderColor:'#212529'}} className="card" >
+    <div style={{borderColor:'#212529', marginBottom:'10px'}} className="card" >
   <img src="https://img2.hocoos.com/cache/u/137967/114426/w-966/h-601/x-36/y--1/ww-410/wh-255/u/137967/114426/ATR-in-Gilgit-Airport-jpg.webp" className="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">Flight Booking</h5>
@@ -107,14 +107,14 @@ import { Link } from "react-router-dom";
 </div>
 </div>
 <div style={{  borderTop:'20px solid black'}}>
-<div style={{marginTop:'120px', paddingBottom:'70px'}} className="container">
+<div style={{marginTop:'80px', paddingBottom:'70px'}} className="container">
         <div className="row">
         <div className="col-md-4">
-          <h1 style={{fontSize:'47px', fontFamily:'Merienda'}} className='text-info'><i>Have a question?</i></h1>
+          <h1 id='question' className='text-info'><i>Have a question?</i></h1>
           <br />
-          <h5 style={{color:'white'}}>Contact us whenever you have any questions. We are always here for you!</h5>
+          <h5 className='my-2' style={{color:'white'}}>Contact us whenever you have any questions. We are always here for you!</h5>
         </div>
-        <div style={{color:'white'}} className="col-md-4 px-5">
+        <div style={{color:'white'}} className="col-md-4 my-3 px-5">
         <h3 className='text-info' style={{textDecoration:'underline'}}>Email</h3>
         <h5 href="/" className='link' onClick={handleCopy1}>rumitravels@gmail.com</h5>
         <h5 href="/" className='link' onClick={handleCopy2}>rumihassaan@gmail.com</h5>
@@ -126,21 +126,23 @@ import { Link } from "react-router-dom";
         <h5 className='link' onClick={handleCopy6}>03343107014</h5>
         <br />
         <h3 className='text-info' style={{textDecoration:'underline'}}>Address</h3>
-        <h5>Zeeshan Super Luxury Apartment, Block 13 Gulistan-e-Johar, Karachi, Pakistan</h5>
+        <h5 id='address'>Zeeshan Super Luxury Apartment, Block 13 Gulistan-e-Johar, Karachi, Pakistan</h5>
         </div>
-        <div className="col-md-4">
-          <h3 className='text-info' style={{color:'white'}}>Fill the form and submit to contact us</h3>
+        <div className="col-md-4 my-2">
+          <h3 className='text-info' id='ff'>Fill the form and submit to contact us</h3>
           <br />
           <form action="" style={{border:'1px solid lightblue', textAlign:'center'}}>
           <br /><br />
-            <textarea cols="30" className='textarea' style={{padding:'10px'}} placeholder='First Name' required rows="1"></textarea><br /><br />
-            <textarea cols="30" className='textarea' style={{padding:'10px'}} placeholder='Last Name' rows="1"></textarea><br /><br />
-            <textarea cols="30" className='textarea' style={{padding:'10px'}} placeholder='Email Address*' required rows="1"></textarea><br /><br />
-            <textarea cols="30" className='textarea' style={{padding:'10px'}} placeholder='Phone' rows="1"></textarea><br /><br />
-            <textarea cols="30" className='textarea' style={{padding:'10px'}} placeholder='Notes ( If Essential )' rows="1"></textarea>
+          <div id="form">
+            <textarea cols="30" className='textarea' placeholder='First Name' required rows="1"></textarea><br /><br />
+            <textarea cols="30" className='textarea' placeholder='Last Name' rows="1"></textarea><br /><br />
+            <textarea cols="30" className='textarea' placeholder='Email Address*' required rows="1"></textarea><br /><br />
+            <textarea cols="30" className='textarea' placeholder='Phone' rows="1"></textarea><br /><br />
+            <textarea cols="30" className='textarea' placeholder='Notes ( If Essential )' rows="1"></textarea>
             <br /><br />
             <button type="submit" id='submit' className="btn btn-primary btn-lg" style={{marginLeft:'5px'}}> SUBMIT </button>
             <br /><br />
+            </div>
           </form>
 
         </div>

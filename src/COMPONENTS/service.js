@@ -11,7 +11,7 @@ function Services() {
           <p style={{color:'#0dcaf0', textDecoration:'underline', textDecorationColor:'white', textDecorationThickness:'5px'}}>l   i   i iii   ii      i   e </p>
           <h1 style={{fontSize:'48px', fontFamily:'Merienda'}} className='my-4'>Services</h1>
         <div className="row">
-      <div style={{marginLeft:'90px', color:'white'}} id='tpp' className="col-md-10 my-5">
+      <div style={{color:'white'}} id='tpp' className="col-md-10 my-5">
     <h3 className=" card-title my-3">Tour Package Planning</h3>
     <p className="card-text"><h6>Our tour package planning service helps you explore the world in style with custom-made itineraries and detailed travel advice.</h6>
     <br />
@@ -21,7 +21,7 @@ function Services() {
     <Link to="/contact" id='book' className="btn btn-primary">BOOK NOW</Link>
     </p>
   </div>
-      <div style={{marginLeft:'90px', color:'white'}} id='hr' className="col-md-10 my-5">
+      <div style={{ color:'white'}} id='hr' className="col-md-10 my-5">
     <h3 className=" card-title my-3">Hotel Reservation</h3>
     <p className="card-text"><h6>With us, customers can compare rates and book the best hotels for their upcoming trips quickly and securely.</h6>
     <br />
@@ -31,7 +31,7 @@ function Services() {
     <Link to="/contact" id='book1' className="btn btn-primary">BOOK NOW</Link>
   </p>
   </div>
-      <div style={{marginLeft:'90px', color:'black'}} id='fb' className="col-md-10 my-5">
+      <div style={{ color:'black'}} id='fb' className="col-md-10 my-5">
     <h3 className=" card-title my-3">
 Flight Booking</h3>
     <p className="card-text"><h6>Get the best prices with our flight booking service, saving you time and money.</h6>
@@ -43,7 +43,7 @@ Flight Booking</h3>
    </p>
      
   </div>
-      <div style={{marginLeft:'90px', color:'white'}} id='ct' className="col-md-10 my-5">
+      <div style={{ color:'white'}} id='ct' className="col-md-10 my-5">
 
     <h3 className=" card-title my-3">Cultural Tours</h3>
     <p className="card-text"><h6>Visit amazing sites and attractions, and learn more about the local culture and customs from expert guides.</h6>
@@ -54,7 +54,7 @@ Flight Booking</h3>
     <Link to="/contact" id='book3' className="btn btn-primary">BOOK NOW</Link>
   </p>
   </div>
-      <div style={{marginLeft:'90px', color:'black'}} id='st' className="col-md-10 my-5">
+      <div style={{ color:'black'}} id='st' className="col-md-10 my-5">
  
     <h3 className=" card-title my-3">Sightseeing Trips</h3>
     <p className="card-text"><h6>Enjoy unforgettable sightseeing trips to unique locations around the world.</h6>
@@ -66,7 +66,7 @@ Flight Booking</h3>
    </p>
      
   </div>
-      <div style={{marginLeft:'90px', color:'white'}} id='cr' className="col-md-10 my-5">
+      <div style={{ color:'white'}} id='cr' className="col-md-10 my-5">
 
     <h3 className=" card-title my-3">Cruise Arrangement</h3>
     <p className="card-text"><h6>We can assist you with booking, payment and all the details of your cruise holiday.</h6>

@@ -5,8 +5,8 @@ function Testimonials() {
   return (
     <div className='bg-primary' style={{borderBottom:'20px solid black'}}>
       <div className='container text-center' style={{ paddingTop:'150px', paddingBottom:'50px', color:'white'}} >
-      <h2 style={{fontSize:'40px', fontFamily:'Merienda'}} className='my-4'>Testimonials</h2>
-      <h1 style={{fontFamily:'Brush Script MT', color:'black', fontSize:'58px'}} className='my-4'>What Our Clients Say About Us</h1>
+      <h2 id='test' style={{ fontFamily:'Merienda'}} className='my-4'>Testimonials</h2>
+      <h1 id='test1' style={{fontFamily:'Brush Script MT', color:'black'}} className='my-4'>What Our Clients Say About Us</h1>
           <p style={{color:'#0d6efd', textDecoration:'underline', textDecorationColor:'white', textDecorationThickness:'5px'}}>l   i   i iii   ii      i   e </p>
       <div>
         <h6 className='my-5'>
@@ -70,17 +70,17 @@ Our Travel Agency testimonials section is full of stories from customers around 
 </div>
       </div>
       </div>
-      <div className=" bg-dark text-center" style={{paddingTop:'80px', paddingBottom:'100px', color:'white'}}>
+      <div className=" bg-dark text-center" style={{paddingTop:'40px', paddingBottom:'100px', color:'white'}}>
         <div className="container">
-        <h2 style={{fontFamily:'Merienda', fontSize:'50px'}} className='text-info my-5'>Our clients</h2>
-        <h5 className='my-5'>Our clients section is the perfect place to find out what makes our travel agency so special! Here, you can read through an array of glowing reviews from satisfied customers who have experienced amazing trips of a lifetime. From adventurous journeys to beachside escapes, let us help plan your dream holiday today!</h5>
+        <h2 id='test2' style={{fontFamily:'Merienda'}} className='text-info my-5'>Our clients</h2>
+        <h6 className='my-5'>Our clients section is the perfect place to find out what makes our travel agency so special! Here, you can read through an array of glowing reviews from satisfied customers who have experienced amazing trips of a lifetime. From adventurous journeys to beachside escapes, let us help plan your dream holiday today!</h6>
         <div className="row my-5">
-          <div className="col-md-2"> <img src="https://img2.hocoos.com/cache/img-pack/539/w-160/h-160/ww-160/wh-160/img-pack/539/frame%20304.png" alt=""/> </div>
-          <div className="col-md-2"> <img src="https://img2.hocoos.com/cache/img-pack/539/w-160/h-160/ww-160/wh-160/img-pack/539/frame%20305.png" alt=""/> </div>
-          <div className="col-md-2"> <img src="https://img2.hocoos.com/cache/img-pack/539/w-160/h-160/ww-160/wh-160/img-pack/539/frame%20302.png" alt=""/> </div>
-          <div className="col-md-2"> <img src="https://img2.hocoos.com/cache/img-pack/539/w-160/h-160/ww-160/wh-160/img-pack/539/frame%20303.png" alt=""/> </div>
-          <div className="col-md-2"> <img src="https://img2.hocoos.com/cache/img-pack/539/w-160/h-160/ww-160/wh-160/img-pack/539/frame%20301.png" alt=""/> </div>
-          <div className="col-md-2"> <img src="https://img2.hocoos.com/cache/img-pack/539/w-160/h-160/ww-160/wh-160/img-pack/539/frame%20300.png" alt=""/> </div></div>
+          <div className="col-md-2 my-2"> <img className='clients' src="https://img2.hocoos.com/cache/img-pack/539/w-160/h-160/ww-160/wh-160/img-pack/539/frame%20304.png" alt=""/> </div>
+          <div className="col-md-2 my-2"> <img className='clients' src="https://img2.hocoos.com/cache/img-pack/539/w-160/h-160/ww-160/wh-160/img-pack/539/frame%20305.png" alt=""/> </div>
+          <div className="col-md-2 my-2"> <img className='clients' src="https://img2.hocoos.com/cache/img-pack/539/w-160/h-160/ww-160/wh-160/img-pack/539/frame%20302.png" alt=""/> </div>
+          <div className="col-md-2 my-2"> <img className='clients' src="https://img2.hocoos.com/cache/img-pack/539/w-160/h-160/ww-160/wh-160/img-pack/539/frame%20303.png" alt=""/> </div>
+          <div className="col-md-2 my-2"> <img className='clients' src="https://img2.hocoos.com/cache/img-pack/539/w-160/h-160/ww-160/wh-160/img-pack/539/frame%20301.png" alt=""/> </div>
+          <div className="col-md-2 my-2"> <img className='clients' src="https://img2.hocoos.com/cache/img-pack/539/w-160/h-160/ww-160/wh-160/img-pack/539/frame%20300.png" alt=""/> </div></div>
         </div>
       </div>
     </div>

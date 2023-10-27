@@ -23,14 +23,14 @@ export const About = () => {
             <br /><br />
             💼<b><u> Results That Speak</u> :</b>  We don't just plan trips; we engineer experiences that leave you transformed. Our results-driven philosophy ensures that every mile traveled wit</h6>
         </div>
-        <div className='container'>
-          <img src="https://img2.hocoos.com/cache/u/137967/114426/w-588/h-254/x-712/y-270/ww-1112/wh-480/u/137967/114426/Screenshot%20(10).png" width="1100px" alt="hello" />
+        <div id='center' className='container'>
+          <img src="https://img2.hocoos.com/cache/u/137967/114426/w-588/h-254/x-712/y-270/ww-1112/wh-480/u/137967/114426/Screenshot%20(10).png" width="255vw" alt="hello" />
         </div>
         <div style={{paddingBottom:'70px', borderBottom:'20px solid black'}}>
         <div className='text-center my-4'>
-    <Link to="/contact" className='mx-3' ><button type="button" id='lm' style={{fontWeight:'500', padding:'10px'}} className="btn btn-primary">LEARN MORE</button></Link>
+    <Link to="/contact" className='mx-3' ><button type="button" id='lm' style={{fontWeight:'500',margin:'5px' , padding:'1vw 4vw'}} className="btn btn-primary">LEARN MORE</button></Link>
     
-    <Link to="/contact" className='mx-3' ><button type="button" id='bn' style={{fontWeight:'500', padding:'10px'}} className="btn btn-info">BOOK NOW</button></Link>
+    <Link to="/contact" className='mx-3' ><button type="button" id='bn' style={{fontWeight:'500', padding:'1vw 4vw'}} className="btn btn-info">BOOK NOW</button></Link>
     </div></div>
     <div style={{paddingBottom:'90px', borderBottom:'20px solid black'}}>
     <div style={{marginTop:'80px'}} className='container text-center'>
@@ -41,7 +41,7 @@ export const About = () => {
       <h5>Our team is dedicated to helping you plan and book your dream vacation. We have knowledgeable experts in each area of travel, from cruises to flights and accommodations. Our experienced staff are here to guide you through the entire process of planning a smooth and enjoyable experience.</h5>
       <br />
       <div className="row">
-      <div className="col-md-3">
+      <div className="col-md-3 my-2">
   <img src="https://img2.hocoos.com/cache/img-pack/539/w-255/h-255/ww-255/wh-255/img-pack/539/pexels-anthony-shkraba-7163357.jpg" className="card-img-top" alt="..."/>
 
     <h3 className=" card-title my-3">Olivia Don</h3>
@@ -54,7 +54,7 @@ export const About = () => {
    <a target='blank' href="https://Twitter.com"> <img className='mx-1' width="20px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHsAAAB7CAMAAABjGQ9NAAAAUVBMVEVQq/H///9CpvBLqfHq9P08pPDm8v2x1vjd7fzy+P6n0fdcsPJvuPPE4Pp0uvP4+/622fiXyvZ9vvTM5PqEwfTU6PugzvdmtPKOxfUknu+93fkWrgh5AAADfElEQVRoge2a7dajKgyFKRHRUkXr5/T+L/TQvk7HWtQdy3TWOovnn6uVnUAIARQiEolEIpFIJBKJ/E8h+jeyUgozDIaU/LIBUlx1luTW5kmmr+5xadlfVNbJaUaqX8Wk6EtYnWUmqfNpie0VPX8mnZ/w1q4McTkkb9KOzNw7nqQqG/dUvY3CqnaeKVi6tT5p53qrpLo4lx25gZvrT6cCNFTWfuW7eH1OJrt63O3M/V1Df6frqvQM1BHXXvl4oQK6ncRKh78OPR49cgrbYl9cNoB0ck82pKAhV930Uqd2DKYW8Vq5YDd9PiLeU/q0eNgeqEdg7HD+ZVqdwmOeP1+07dYbSKBlxU+sp5i0yWfvVhtLkyqALp9MgJQX2qf0sm6xN6H5SNEsTYsmK+lXn+ZiSGmhlhFka2/A03pKe6XDV3RZvRs+enyXGpO+wVltZdamo1har26Q9JkhLVZiKNHDa8xjYX6DV8QHq53ZjTRz3jM2HvCVe2K9qaY3Sv34j4030+/nauInL/orKVcYjH/Fb5XutGiTpuo3LfwNVgfMoAvSLAQzzGmzFGJSs2peY1wwKyiIAVqetm3KXyqUOKfc/lnHbFEPYMrcxg68fcaU1pAycJeEo+xZxz4h44W5xNYIDLw0f0BQvgLhTbFl0fQZF6a2xGvAPZih5jp9CKbdcLN5QMdrtjaZUNrwvnvmeKBQ79huOzxHKEfgzrCQ4kfcFvdzlM9nOTOp/YHMx9HOTSwzcXVtPlrL8MOqN2l5Py+okVONFXgly1y61fU49ucbvNEN6Da8w12DVy29ILv95rc4lFfCOG6PB7kAD89WYe9HFp5/IJ18eFqPHZb64ZXGHlR/VJq5C/MhD4p3h6f2XPzQipKYIHcz0vCj3eIXM9uQKrlJZvMQlqsu+obR9WM46Ye825Ff9s5BJvil6R7SgDvEPkSIzyGqwSqiDixNcgDDzbZhpUnB0yzfueNgCk93ihBNuNtnIiWHHi6ZLH75t4ZU8o6SYmirFK9Ts427DdDXoWkqrfWtyxJOfWz7AJ8bkDhyrtaYMEEmDfespxvCzSxJFaO/i2Hv6pKrXmMpNNEm/Gcdkkq9t3jkRfv+RUcQ3NpVnrO1zrepvoqwnb2UV6KsbwsDbFqcW/ONT2hcdnOYsh3Huh7b0tyfv/vpDj35pmokEolEIpFIJPJ1/gNkFCYsf9fLQwAAAABJRU5ErkJggg==" alt="Twitter" /></a>
    <a target='blank' href="https://Discord.com"> <img className='mx-1' width="25px" src="data:image/png;base64,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" alt="Discord" /></a>
  </div> </div>
-      <div className="col-md-3">
+      <div className="col-md-3 my-2">
     
   <img src="https://img2.hocoos.com/cache/img-pack/539/w-255/h-255/ww-255/wh-255/img-pack/539/pexels-anthony-shkraba-7163360.jpg" className="card-img-top" alt="..."/>
   
@@ -68,7 +68,7 @@ export const About = () => {
    <a target='blank' href="https://Discord.com"> <img className='mx-1' width="25px" src="data:image/png;base64,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" alt="Discord" /></a>
  </div>
   </div>
-      <div className="col-md-3">
+      <div className="col-md-3 my-2">
   <img src="https://img2.hocoos.com/cache/img-pack/539/w-255/h-255/ww-255/wh-255/img-pack/539/pexels-anthony-shkraba-7163377.jpg" className="card-img-top" alt="..."/>
  
     <h3 className=" card-title my-3">Kate State</h3>
@@ -82,7 +82,7 @@ export const About = () => {
  </div>
      
   </div>
-      <div className="col-md-3">
+      <div className="col-md-3 my-2">
   <img src="https://img2.hocoos.com/cache/img-pack/539/w-255/h-255/ww-255/wh-255/img-pack/539/pexels-anthony-shkraba-7163389.jpg" className="card-img-top" alt="..."/>
 
     <h3 className=" card-title my-3">David Smith</h3>
@@ -104,8 +104,8 @@ export const About = () => {
     <h6>Welcome to <b><u>RUMI@TRAVELS</u></b> Agency! We understand that everyone wants something different out of a vacation, and at <b><u>RUMI@TRAVELS</u></b> we are here to help you find exactly what you're looking for. From experiencing the hustle and bustle of bustling big cities, or taking it slow on an exotic beach getaway - with our experienced team you can be sure your dream trip will come true. So let us make your travel dreams a reality today!
 </h6>
 </div>
-<div className="container">
-  <img src="https://img2.hocoos.com/cache/img-pack/539/w-1110/h-550/ww-1110/wh-550/img-pack/539/pexels-spencer-davis-4356144.jpg" alt="" />
+<div id='picture' className="container">
+  <img src="https://img2.hocoos.com/cache/img-pack/539/w-1110/h-550/ww-1110/wh-550/img-pack/539/pexels-spencer-davis-4356144.jpg" height="270vw" width="255vw" alt="" />
 </div>
       </div></div>
   );
