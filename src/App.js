@@ -20,13 +20,13 @@ function App() {
     <Router>
     <Navbar />
      <Routes>
-     <Route
+            <Route
               exact
               path="/"
               element={
                 <Body
-                 
-                  key='home'
+                
+                key='home'
                 />
               }
             />

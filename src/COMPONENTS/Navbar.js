@@ -16,7 +16,7 @@ const Navbar=(props)=> {
       <div>
         <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
           <div className="container-fluid">
-           <Link className="navbar-brand mx-4" to="/">
+           <Link className="navbar-brand mx-4" to="/home">
             <img id="logo" src="https://img2.hocoos.com/cache/u/137967/114426/w-352/h-364/x-486/y-96/u/137967/114426/logo.png" style={{borderRadius:'50%'}} alt="Rumi@Travels" width="50vw" height="48vw"/>
            </Link>
             <button
@@ -71,7 +71,7 @@ const Navbar=(props)=> {
                 <button type="button" className="btn dropdown-toggle" id="btn-drp" data-bs-toggle="dropdown" aria-expanded="false">
                  <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSagxePxIMtu2pkta6ZECP1dYj8XwdX0tzzsewrQTQUBM7NKf7f" width="25vw" alt="Mail"/>
                 </button>
-                <ul className="dropdown-menu">
+                <ul className="dropdown-menu" style={{right:'0.1vw'}}>
                   <li><p className="dropdown-item" href="/" style={{color:'black'}} onClick={handleCopy}>rumitravels@gmail.com </p></li>
                   <li><p className="dropdown-item" href="/" style={{color:'black'}} onClick={handleCopy2}>03343871030</p> </li>
                 </ul>

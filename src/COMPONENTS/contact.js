@@ -2,6 +2,9 @@ import React from 'react'
 
 function Contact() {
   document.title="Rumi@Travels - Contact"
+  const submit = () => {
+      alert("Your request is accepted. We have sent you an email so we can contact you")
+  }
   const handleCopy1 = () => {
     navigator.clipboard.writeText('rumitravels@gmail.com');
     alert('Copied to clipboard');
@@ -61,7 +64,7 @@ function Contact() {
             <textarea cols="30" className='textarea' style={{padding:'1vw'}} placeholder='Phone' rows="1"></textarea><br /><br />
             <textarea cols="30" className='textarea' style={{padding:'1vw'}} placeholder='Notes ( If Essential )' rows="1"></textarea>
             <br /><br />
-            <button type="submit" id='submit' className="btn btn-primary btn-lg" style={{marginLeft:'5px'}}> SUBMIT </button>
+            <button type="submit" id='submit' onClick={submit} className="btn btn-primary btn-lg" style={{marginLeft:'5px'}}> SUBMIT </button>
             <br /><br />
           </form>
 

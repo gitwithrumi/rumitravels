@@ -307,7 +307,7 @@ body{
 }
 @media (max-width: 990px) and (min-width: 768px) {
         #form{
-                margin-left: 4vw;
+                margin-left: 3.5vw;
                 margin-right: 4vw;
         }
         .textarea{
@@ -638,10 +638,14 @@ body{
         font-weight:bolder;
 }
 #bbd{
-        padding: 1rem 1.5rem;
+        font-weight: 500;
+        font-size: larger;
+        padding: 0.7rem 1rem;
 }
 #bbc{
-        padding: 1rem 1.5rem;
+        font-weight: 500;
+        font-size: larger;
+        padding: 0.7rem 1rem;
 }
 
 #bbc:hover{
