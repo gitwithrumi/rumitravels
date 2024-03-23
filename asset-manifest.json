@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rumitravels/static/css/main.c2691986.css",
+    "main.js": "/rumitravels/static/js/main.c4d91cc9.js",
+    "static/js/787.38a38dcb.chunk.js": "/rumitravels/static/js/787.38a38dcb.chunk.js",
+    "index.html": "/rumitravels/index.html",
+    "main.c2691986.css.map": "/rumitravels/static/css/main.c2691986.css.map",
+    "main.c4d91cc9.js.map": "/rumitravels/static/js/main.c4d91cc9.js.map",
+    "787.38a38dcb.chunk.js.map": "/rumitravels/static/js/787.38a38dcb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2691986.css",
+    "static/js/main.c4d91cc9.js"
+  ]
+}
